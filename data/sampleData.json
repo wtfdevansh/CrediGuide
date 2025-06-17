@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "name": "Chase Sapphire Preferred® Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 95,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "Excellent for travel and dining rewards with flexible point redemption.",
+    "rewards_details": { "travel_portal": 5, "dining": 3, "online_groceries": 3, "streaming_services": 3, "other": 1 },
+    "benefits": [ "$50 Annual Ultimate Rewards Hotel Credit", "10% Anniversary Point Bonus", "DoorDash DashPass Subscription", "Trip Cancellation/Interruption Insurance" ],
+    "welcome_bonus": "60,000 bonus points after spending $4,000 in the first 3 months.",
+    "eligibility": {
+      "credit_score": 720,
+      "income_leve":"stable",
+      "income_recommendation": "A stable income is expected to support the credit limit and spending.",
+      "specific_rules": [{ "name": "Chase 5/24 Rule", "description": "Approval is unlikely if you've opened 5 or more personal credit cards from any bank in the last 24 months.", "applies_to_issuer": "Chase" }],
+      "required_status": [],
+      "notes": [ "One of the best starter travel cards available." ]
+    },
+    "apply_link": "https://apply.chase.com/f/sapphire-preferred"
+  },
+  {
+    "id": 2,
+    "name": "Capital One Venture X Rewards",
+    "issuer": "Capital One",
+    "network": "Visa",
+    "annual_fee": 395,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "Premium travel card with simple rewards and great perks.",
+    "rewards_details": { "hotels_and_rental_cars_portal": 10, "flights_portal": 5, "other": 2 },
+    "benefits": [ "$300 annual travel credit", "10,000 bonus miles every anniversary", "Lounge access", "Global Entry/TSA PreCheck Credit" ],
+    "welcome_bonus": "75,000 bonus miles after spending $4,000 in the first 3 months.",
+    "eligibility": {
+      "credit_score": 740,
+      "income_level": "premium",
+      "income_recommendation": "Higher income is strongly recommended due to the card's premium nature.",
+      "specific_rules": [],
+      "required_status": [],
+      "notes": [ "Capital One is known to pull from all three credit bureaus for applications." ]
+    },
+    "apply_link": "https://apply.capitalone.com/venture-x"
+  },
+  {
+    "id": 3,
+    "name": "American Express® Gold Card",
+    "issuer": "American Express",
+    "network": "American Express",
+    "annual_fee": 250,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "High rewards on dining and at U.S. supermarkets.",
+    "rewards_details": { "restaurants_worldwide": 4, "us_supermarkets": 4, "flights_direct_or_amextravel": 3, "other": 1 },
+    "benefits": [ "$120 annual dining credit", "$120 annual Uber Cash", "The Hotel Collection benefits" ],
+    "welcome_bonus": "60,000 Membership Rewards® points after spending $4,000 in the first 6 months.",
+    "eligibility": {
+      "credit_score": 670,
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [{ "name": "Amex Welcome Bonus Rule", "description": "The welcome offer may not be available to applicants who have or have had this Card previously.", "applies_to_issuer": "American Express" }],
+      "required_status": [],
+      "notes": []
+    },
+    "apply_link": "https://apply.americanexpress.com/gold-card"
+  },
+  {
+    "id": 4,
+    "name": "Citi® Double Cash Card",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": true,
+    "rewards_summary": "Simple flat-rate cash back on all purchases.",
+    "rewards_details": { "all_purchases_on_buy": 1, "all_purchases_on_pay": 1, "other": 0 },
+    "benefits": [ "No category restrictions", "Access to Citi Entertainment", "Convert cash back to ThankYou® Points" ],
+    "welcome_bonus": "Limited time: Earn $200 cash back after spending $1,500 in the first 6 months.",
+    "eligibility": {
+      "credit_score": 670,
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [],
+      "required_status": [],
+      "notes": [ "Applicants with many recent credit inquiries may be denied." ]
+    },
+    "apply_link": "https://apply.citi.com/double-cash"
+  },
+  {
+    "id": 5,
+    "name": "Discover it® Cash Back",
+    "issuer": "Discover",
+    "network": "Discover",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "5% cash back in rotating quarterly categories.",
+    "rewards_details": { "rotating_categories": 5, "other": 1 },
+    "benefits": [ "Cashback Match for the first year.", "No late fee on your first late payment" ],
+    "welcome_bonus": "N/A - See Cashback Match benefit.",
+    "eligibility": {
+      "credit_score": 670,
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [],
+      "required_status": [],
+      "notes": [ "Great for users who don't mind tracking quarterly categories." ]
+    },
+    "apply_link": "https://apply.discover.com/it-cash-back"
+  },
+  {
+    "id": 6,
+    "name": "Blue Cash Preferred® Card from American Express",
+    "issuer": "American Express",
+    "network": "American Express",
+    "annual_fee": 95,
+    "has_foreign_transaction_fee": true,
+    "rewards_summary": "Top-tier cash back for U.S. supermarkets, streaming, and gas.",
+    "rewards_details": { "us_supermarkets": 6, "select_us_streaming": 6, "us_gas_stations": 3, "transit": 3, "other": 1 },
+    "benefits": [ "Return Protection", "$84 Disney Bundle Credit ($7/month)" ],
+    "welcome_bonus": "Earn a $250 statement credit after you spend $3,000 in purchases in your first 6 months.",
+    "eligibility": {
+      "credit_score": 670,
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [{ "name": "Amex Welcome Bonus Rule", "description": "The welcome offer may not be available to applicants who have or have had this Card previously.", "applies_to_issuer": "American Express" }],
+      "required_status": [],
+      "notes": [ "The $95 annual fee is waived for the first year." ]
+    },
+    "apply_link": "https://apply.americanexpress.com/blue-cash-preferred"
+  },
+  {
+    "id": 7,
+    "name": "Chase Freedom Flex℠",
+    "issuer": "Chase",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": true,
+    "rewards_summary": "Combines rotating 5% categories with fixed bonus categories.",
+    "rewards_details": { "rotating_categories": 5, "travel_portal": 5, "drugstores": 3, "dining": 3, "other": 1 },
+    "benefits": [ "Cell Phone Protection", "Complimentary DoorDash DashPass for 3 months" ],
+    "welcome_bonus": "Earn a $200 bonus after you spend $500 on purchases in your first 3 months.",
+    "eligibility": {
+      "credit_score": 670,
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [{ "name": "Chase 5/24 Rule", "description": "Approval is unlikely if you've opened 5 or more personal credit cards from any bank in the last 24 months.", "applies_to_issuer": "Chase" }],
+      "required_status": [],
+      "notes": []
+    },
+    "apply_link": "https://apply.chase.com/f/freedom-flex"
+  },
+  {
+    "id": 8,
+    "name": "The Platinum Card® from American Express",
+    "issuer": "American Express",
+    "network": "American Express",
+    "annual_fee": 695,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "The ultimate card for luxury travel perks and statement credits.",
+    "rewards_details": { "flights_direct_or_amextravel": 5, "hotels_amextravel": 5, "other": 1 },
+    "benefits": [ "Extensive airport lounge access", "$200 airline fee credit", "$200 Uber Cash credit", "$240 digital entertainment credit" ],
+    "welcome_bonus": "Earn 80,000 Membership Rewards® points after you spend $8,000 on purchases in your first 6 months.",
+    "eligibility": {
+      "credit_score":  740,
+      "income_level": "premium",
+      "income_recommendation": "High income and strong credit profile are highly recommended.",
+      "specific_rules": [{ "name": "Amex Welcome Bonus Rule", "description": "The welcome offer may not be available to applicants who have or have had this Card previously.", "applies_to_issuer": "American Express" }],
+      "required_status": [],
+      "notes": [ "Best for frequent travelers who can maximize the extensive statement credits to offset the annual fee." ]
+    },
+    "apply_link": "https://apply.americanexpress.com/platinum-card"
+  },
+  {
+    "id": 9,
+    "name": "Capital One SavorOne Cash Rewards",
+    "issuer": "Capital One",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "Great no-annual-fee card for dining and entertainment.",
+    "rewards_details": { "dining": 3, "entertainment": 3, "streaming_services": 3, "grocery_stores": 3, "other": 1 },
+    "benefits": [ "No foreign transaction fees", "Complimentary Uber One membership through Nov 2024" ],
+    "welcome_bonus": "Earn a one-time $200 cash bonus after you spend $500 on purchases within the first 3 months.",
+    "eligibility": {
+      "credit_score": 670, 
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [],
+      "required_status": [],
+      "notes": []
+    },
+    "apply_link": "https://apply.capitalone.com/savorone-rewards"
+  },
+  {
+    "id": 10,
+    "name": "Wells Fargo Active Cash® Card",
+    "issuer": "Wells Fargo",
+    "network": "Visa",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": true,
+    "rewards_summary": "Unlimited 2% cash rewards on purchases.",
+    "rewards_details": { "all_purchases": 2, "other": 2 },
+    "benefits": [ "Cell Phone Protection up to $600", "Simple, flat-rate rewards" ],
+    "welcome_bonus": "Earn a $200 cash rewards bonus after spending $500 in purchases in the first 3 months.",
+    "eligibility": {
+      "credit_score":  670, 
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [],
+      "required_status": [],
+      "notes": [ "Approval odds may be better for those with an existing Wells Fargo relationship." ]
+    },
+    "apply_link": "https://apply.wellsfargo.com/active-cash"
+  },
+  {
+    "id": 11,
+    "name": "Chase Sapphire Reserve®",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 550,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "A top-tier travel card with a generous annual travel credit.",
+    "rewards_details": { "travel_portal_after_credit": 10, "dining": 3, "flights_portal": 5, "other_travel_after_credit": 3, "other": 1 },
+    "benefits": [ "$300 Annual Travel Credit", "Priority Pass Select lounge access", "Global Entry Credit" ],
+    "welcome_bonus": "60,000 bonus points after you spend $4,000 on purchases in the first 3 months.",
+    "eligibility": {
+      "credit_score":  740, 
+      "income_level": "premium",
+      "income_recommendation": "High income is strongly recommended.",
+      "specific_rules": [{ "name": "Chase 5/24 Rule", "description": "Approval is unlikely if you've opened 5 or more personal credit cards from any bank in the last 24 months.", "applies_to_issuer": "Chase" }],
+      "required_status": [],
+      "notes": [ "You cannot hold both a Sapphire Preferred and Sapphire Reserve card at the same time." ]
+    },
+    "apply_link": "https://apply.chase.com/f/sapphire-reserve"
+  },
+  {
+    "id": 12,
+    "name": "Bilt Mastercard®",
+    "issuer": "Wells Fargo",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "The only card that lets you earn points on rent without a transaction fee.",
+    "rewards_details": { "rent": 1, "travel": 2, "dining": 3, "other": 1 },
+    "benefits": [ "Pay rent via check or ACH with no fee", "Points transfer 1:1 to top airline/hotel partners", "Cell phone protection" ],
+    "welcome_bonus": "N/A - Focus is on rent payments.",
+    "eligibility": {
+      "credit_score":  670,
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [],
+      "required_status": [],
+      "notes": [ "You must make at least 5 transactions per statement period to earn any points, including on rent." ]
+    },
+    "apply_link": "https://apply.biltrewards.com/mastercard"
+  },
+  {
+    "id": 13,
+    "name": "Chase Freedom Unlimited®",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": true,
+    "rewards_summary": "A great flat-rate card with bonus categories for everyday spending.",
+    "rewards_details": { "travel_portal": 5, "drugstores": 3, "dining": 3, "other": 1.5 },
+    "benefits": [ "No annual fee", "Purchase Protection and Extended Warranty" ],
+    "welcome_bonus": "Earn an additional 1.5% on all purchases (up to $20,000 spent) in the first year.",
+    "eligibility": {
+      "credit_score":  670, 
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [{ "name": "Chase 5/24 Rule", "description": "Approval is unlikely if you've opened 5 or more personal credit cards from any bank in the last 24 months.", "applies_to_issuer": "Chase" }],
+      "required_status": [],
+      "notes": []
+    },
+    "apply_link": "https://apply.chase.com/f/freedom-unlimited"
+  },
+  {
+    "id": 14,
+    "name": "Citi Custom Cash℠ Card",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": true,
+    "rewards_summary": "Automatically earn 5% back in your top eligible spending category each month.",
+    "rewards_details": { "top_eligible_spend_category": 5, "other": 1 },
+    "benefits": [ "Automatic 5% rewards, no activation needed", "Eligible categories include restaurants, gas stations, grocery stores, and more" ],
+    "welcome_bonus": "Earn $200 in cash back after you spend $1,500 on purchases in the first 6 months.",
+    "eligibility": {
+      "credit_score":  670, 
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [],
+      "required_status": [],
+      "notes": [ "The 5% cash back is limited to the first $500 spent in your top category per billing cycle." ]
+    },
+    "apply_link": "https://apply.citi.com/custom-cash"
+  },
+  {
+    "id": 15,
+    "name": "Ink Business Preferred® Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 95,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "High rewards on common business spending categories.",
+    "rewards_details": { "business_categories": 3, "other": 1 },
+    "benefits": [ "Cell phone protection", "Points transfer 1:1 to airline/hotel partners", "Points worth 25% more for travel via Chase" ],
+    "welcome_bonus": "100,000 bonus points after you spend $8,000 on purchases in the first 3 months.",
+    "eligibility": {
+      "credit_score":  720, 
+      "income_level": "business",
+      "income_recommendation": "Must have business income, but can be from a new business or side hustle.",
+      "specific_rules": [{ "name": "Chase 5/24 Rule", "description": "This card is subject to the 5/24 rule.", "applies_to_issuer": "Chase" }],
+      "required_status": ["Business Owner"],
+      "notes": [ "You can apply as a sole proprietor using your own Social Security Number." ]
+    },
+    "apply_link": "https://apply.chase.com/f/ink-business-preferred"
+  },
+  {
+    "id": 16,
+    "name": "Delta SkyMiles® Gold American Express Card",
+    "issuer": "American Express",
+    "network": "American Express",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "Solid card for occasional Delta flyers.",
+    "rewards_details": { "delta_purchases": 2, "restaurants_worldwide": 2, "us_supermarkets": 2, "other": 1 },
+    "benefits": [ "First checked bag free on Delta flights", "Priority boarding", "$100 Delta flight credit after spending $10k in a year" ],
+    "welcome_bonus": "Earn 40,000 bonus miles after you spend $2,000 in purchases on your new Card in your first 6 months.",
+    "eligibility": {
+      "credit_score": 670,
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [{ "name": "Amex Welcome Bonus Rule", "description": "The welcome offer may not be available to applicants who have or have had this Card previously.", "applies_to_issuer": "American Express" }],
+      "required_status": [],
+      "notes": [ "Annual fee is $0 for the first year, then $99." ]
+    },
+    "apply_link": "https://apply.americanexpress.com/delta-skymiles-gold"
+  },
+  {
+    "id": 17,
+    "name": "Marriott Bonvoy Boundless® Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 95,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "Great for Marriott loyalists, with a free night award each year.",
+    "rewards_details": { "marriott_bonvoy_hotels": 6, "gas_stations": 2, "grocery_stores": 2, "dining": 2, "other": 2 },
+    "benefits": [ "1 Free Night Award (up to 35,000 points) every year", "Automatic Silver Elite Status" ],
+    "welcome_bonus": "Earn 3 Free Night Awards (each up to 50,000 points) after you spend $3,000 in your first 3 months.",
+    "eligibility": {
+      "credit_score":  670, 
+      "income_level": "stable",
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [{ "name": "Chase 5/24 Rule", "description": "Approval is unlikely if you've opened 5 or more personal credit cards from any bank in the last 24 months.", "applies_to_issuer": "Chase" }],
+      "required_status": [],
+      "notes": [ "Subject to Marriott Bonvoy co-brand card eligibility rules." ]
+    },
+    "apply_link": "https://apply.chase.com/f/marriott-bonvoy-boundless"
+  },
+  {
+    "id": 18,
+    "name": "Capital One Quicksilver Student Cash Rewards",
+    "issuer": "Capital One",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "A simple flat-rate cash back card for students building credit.",
+    "rewards_details": { "all_purchases": 1.5, "other": 1.5 },
+    "benefits": [ "No foreign transaction fees", "Automatic credit line reviews", "Great for building credit history" ],
+    "welcome_bonus": "Earn $50 when you spend $100 in the first three months.",
+    "eligibility": {
+      "credit_score":  600, 
+      "income_level": "student",
+      "income_recommendation": "Some income is required, but student-friendly (part-time jobs, allowances).",
+      "specific_rules": [],
+      "required_status": ["Student"],
+      "notes": [ "Must be enrolled at a college or university." ]
+    },
+    "apply_link": "https://apply.capitalone.com/quicksilver-student"
+  },
+  {
+    "id": 19,
+    "name": "Discover it® Secured Credit Card",
+    "issuer": "Discover",
+    "network": "Discover",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "The best secured card for building credit, as it offers rewards.",
+    "rewards_details": { "gas_stations": 2, "restaurants": 2, "other": 1 },
+    "benefits": [ "Cashback Match in the first year", "Reports to all 3 major credit bureaus" ],
+    "welcome_bonus": "N/A - See Cashback Match benefit.",
+    "eligibility": {
+      "credit_score": 300, 
+      "income_level": "lenient",
+      "income_recommendation": "Some form of income is required, but requirements are lenient.",
+      "specific_rules": [],
+      "required_status": [],
+      "notes": [ "Requires a refundable security deposit of at least $200, which becomes your credit limit.", "Discover automatically reviews your account after 7 months to graduate you to an unsecured card." ]
+    },
+    "apply_link": "https://apply.discover.com/it-secured"
+  },
+  {
+    "id": 20,
+    "name": "U.S. Bank Altitude® Go Visa Signature® Card",
+    "issuer": "U.S. Bank",
+    "network": "Visa",
+    "annual_fee": 0,
+    "has_foreign_transaction_fee": false,
+    "rewards_summary": "High rewards on dining with a unique streaming credit.",
+    "rewards_details": { "dining_takeout_delivery": 4, "grocery_stores": 2, "gas_stations_ev_charging": 2, "streaming_services": 2, "other": 1 },
+    "benefits": [ "$15 credit for annual streaming service purchases", "No annual fee" ],
+    "welcome_bonus": "Earn 20,000 bonus points when you spend $1,000 in eligible purchases within the first 90 days.",
+    "eligibility": {
+      "credit_score": 720,
+      "income_level": "stable", 
+      "income_recommendation": "Stable income is required.",
+      "specific_rules": [],
+      "required_status": [],
+      "notes": [ "Approval odds are significantly better for applicants with an existing U.S. Bank checking or savings account." ]
+    },
+    "apply_link": "https://apply.usbank.com/altitude-go"
+  }
+]
