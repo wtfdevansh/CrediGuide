@@ -5,12 +5,10 @@ from langchain.agents.format_scratchpad.openai_tools import format_to_openai_too
 from langchain.agents.output_parsers.openai_tools import OpenAIToolsAgentOutputParser
 from dotenv import load_dotenv
 from langchain.tools import StructuredTool
-
-
-
 from card_agent.recommender import Recommender
 from schema.schema import RecommendationResponse
 from schema.schema import RecommendedCard
+from schema.schema import MyfunctionInput
 from langchain.output_parsers import PydanticOutputParser
 recommender_instance = Recommender()
 import streamlit as st
@@ -39,7 +37,8 @@ class AgentCreator:
             StructuredTool.from_function(
                 credit_card_recommendation_tool,
                 name="get_credit_card_recommendations",
-                description="Get personalized credit card recommendations based on user's credit score, income, spending habits, and annual fee ."
+                description="Get personalized credit card recommendations based on user's (credit score, income, spending habits, and annual fee) this all are required fields so take them before calling the function.",
+                args_schema=MyfunctionInput
             )
         ] 
         self.llm = ChatOpenAI(model="gpt-4.1-nano-2025-04-14", temperature=0 , openai_api_key=API_KEY)

@@ -97,7 +97,8 @@ class Recommender:
                     card_reward=card.get("rewards_summary", "N/A"),
                     card_benefits=card.get("benefits", []),
                     reason=f"Recommended for its benefits related to '{usage}' and a suitable fee structure.",
-                    annual_fee=card.get("annual_fee", 0.0)
+                    annual_fee=card.get("annual_fee", 0.0),
+                    apply_link=card.get("apply_link" , "N/A")
                 )
             )
 

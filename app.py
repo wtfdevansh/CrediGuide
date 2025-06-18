@@ -2,7 +2,6 @@ import streamlit as st
 import time
 from llm_agent import AgentCreator
 from card_agent.recommender import Recommender as CardTools
-
 from schema.schema import RecommendationResponse
 from langchain.output_parsers import PydanticOutputParser
 
@@ -34,22 +33,22 @@ if "agent_executor" not in st.session_state:
 
 def add_bg_from_url():
     st.markdown(
-         f"""
-         <style>
-         .stApp {{
+         """
+        <style>
+         .stApp {
              background-image: radial-gradient(circle, #D3D3D3 1px, rgba(0, 0, 0, 0) 1px);
              background-size: 30px 30px;
              animation: move-dots 1s linear infinite;
-         }}
+         }
 
-         @keyframes move-dots {{
-             0% {{
+         @keyframes move-dots {
+             0% {
                  background-position: 0 0;
-             }}
-             100% {{
+             }
+             100% {
                  background-position: 30px 30px;
-             }}
-         }}
+             }
+         }
          </style>
          """,
          unsafe_allow_html=True
@@ -97,8 +96,8 @@ if prompt := st.chat_input("What is your credit score? What do you spend most on
              tool_output = intermediate_steps[0][1]
 
              try:
+              
               parsed_output = st.session_state.parser.parse(tool_output)
-
               st.write("### Structured Recommendation:")
               st.subheader(parsed_output.summary)
 
@@ -108,10 +107,12 @@ if prompt := st.chat_input("What is your credit score? What do you spend most on
                st.write(f"**Rewards Summary:** {card.card_reward}")
                st.write(f"**Annual Fee:** ${card.annual_fee}")
                st.write(f"**Reason:** {card.reason}")
+               st.write(f"**Apply Link :** {card.apply_link}")
                st.divider()
 
              except Exception as e:
-              st.error(f"Failed to parse the agent's output: {e}")
+              print(e)
+              st.write(output_message)
             else:
                st.write(output_message)
 
