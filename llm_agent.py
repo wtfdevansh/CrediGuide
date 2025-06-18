@@ -14,6 +14,7 @@ from schema.schema import RecommendedCard
 from langchain.output_parsers import PydanticOutputParser
 recommender_instance = Recommender()
 import streamlit as st
+import os
 
 
 def credit_card_recommendation_tool(credit_score:int , income:int , fee:int , usage: str) -> str:
@@ -29,7 +30,11 @@ class AgentCreator:
             card_tools: An instantiated CardTools object containing the agent's tools.
         """
         # load_dotenv()
-        API_KEY = st.secrets["OPENAI_API_KEY"]
+        try:
+            API_KEY = st.secrets["OPENAI_API_KEY"]
+        except Exception as e:
+            API_KEY = os.environ.get("OPENAI_API_KEY")
+       
         self.tools = [
             StructuredTool.from_function(
                 credit_card_recommendation_tool,
