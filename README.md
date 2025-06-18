@@ -86,3 +86,6 @@ Credi Guide is a user-friendly chatbot designed to help you find the perfect cre
     *   Fork the repository, make your changes, and submit a pull request.
  
 ## Demo video
+[whatsapp demo](https://drive.google.com/file/d/1GAk_eXgrWctWkaSwj4SX_yDt7jkcmYxx/view?usp=sharing)
+
+[web demo](https://drive.google.com/file/d/1HykOXT5uiu6Jmet2DIzEeSv7nyt3bTKk/view?usp=sharing)
