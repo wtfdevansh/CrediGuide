@@ -13,6 +13,7 @@ from schema.schema import RecommendationResponse
 from schema.schema import RecommendedCard
 from langchain.output_parsers import PydanticOutputParser
 recommender_instance = Recommender()
+import streamlit as st
 
 
 def credit_card_recommendation_tool(credit_score:int , income:int , fee:int , usage: str) -> str:
@@ -27,7 +28,8 @@ class AgentCreator:
         Args:
             card_tools: An instantiated CardTools object containing the agent's tools.
         """
-        load_dotenv()
+        # load_dotenv()
+        API_KEY = st.secrets["OPENAI_API_KEY"]
         self.tools = [
             StructuredTool.from_function(
                 credit_card_recommendation_tool,
@@ -35,7 +37,7 @@ class AgentCreator:
                 description="Get personalized credit card recommendations based on user's credit score, income, spending habits, and annual fee ."
             )
         ] 
-        self.llm = ChatOpenAI(model="gpt-4.1-nano-2025-04-14", temperature=0)
+        self.llm = ChatOpenAI(model="gpt-4.1-nano-2025-04-14", temperature=0 , api_key=API_KEY)
         self.parser = PydanticOutputParser(pydantic_object=RecommendationResponse)
 
     def create_agent_executor(self) -> AgentExecutor:
