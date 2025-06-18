@@ -6,6 +6,6 @@ CATEGORY_MAPPING = {
     "groceries": ["online_groceries", "us_supermarkets", "grocery_stores"],
     "gas": ["us_gas_stations", "gas_stations_ev_charging"],
     "streaming": ["streaming_services", "select_us_streaming"],
-    "everything": ["other", "all_purchases"] # For flat-rate cards
+    "everything": ["other", "all_purchases"] 
 }
 

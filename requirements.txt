@@ -1,2 +1,8 @@
 langchain
 langchain-openai
+streamlit
+python-dotenv
+flask
+twilio
+pydantic
+typing

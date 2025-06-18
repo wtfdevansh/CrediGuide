@@ -12,13 +12,14 @@
     "welcome_bonus": "60,000 bonus points after spending $4,000 in the first 3 months.",
     "eligibility": {
       "credit_score": 720,
-      "income_leve":"stable",
+      "income_level":"stable",
       "income_recommendation": "A stable income is expected to support the credit limit and spending.",
       "specific_rules": [{ "name": "Chase 5/24 Rule", "description": "Approval is unlikely if you've opened 5 or more personal credit cards from any bank in the last 24 months.", "applies_to_issuer": "Chase" }],
       "required_status": [],
       "notes": [ "One of the best starter travel cards available." ]
     },
-    "apply_link": "https://apply.chase.com/f/sapphire-preferred"
+    "apply_link": "https://apply.chase.com/f/sapphire-preferred",
+    "image_link": "assets/visa.png"
   },
   {
     "id": 2,
@@ -39,7 +40,8 @@
       "required_status": [],
       "notes": [ "Capital One is known to pull from all three credit bureaus for applications." ]
     },
-    "apply_link": "https://apply.capitalone.com/venture-x"
+    "apply_link": "https://apply.capitalone.com/venture-x",
+    "image_link": "assets/payment.png"
   },
   {
     "id": 3,
@@ -60,7 +62,8 @@
       "required_status": [],
       "notes": []
     },
-    "apply_link": "https://apply.americanexpress.com/gold-card"
+    "apply_link": "https://apply.americanexpress.com/gold-card",
+    "image_link": "assets/money.png"
   },
   {
     "id": 4,
@@ -81,7 +84,8 @@
       "required_status": [],
       "notes": [ "Applicants with many recent credit inquiries may be denied." ]
     },
-    "apply_link": "https://apply.citi.com/double-cash"
+    "apply_link": "https://apply.citi.com/double-cash",
+    "image_link": "assets/credit-cards.png"
   },
   {
     "id": 5,
@@ -102,7 +106,8 @@
       "required_status": [],
       "notes": [ "Great for users who don't mind tracking quarterly categories." ]
     },
-    "apply_link": "https://apply.discover.com/it-cash-back"
+    "apply_link": "https://apply.discover.com/it-cash-back",
+    "image_link": "assets/credit-card (3).png"
   },
   {
     "id": 6,
@@ -123,7 +128,8 @@
       "required_status": [],
       "notes": [ "The $95 annual fee is waived for the first year." ]
     },
-    "apply_link": "https://apply.americanexpress.com/blue-cash-preferred"
+    "apply_link": "https://apply.americanexpress.com/blue-cash-preferred",
+    "image_link": "assets/credit-card (2).png"
   },
   {
     "id": 7,
@@ -144,7 +150,8 @@
       "required_status": [],
       "notes": []
     },
-    "apply_link": "https://apply.chase.com/f/freedom-flex"
+    "apply_link": "https://apply.chase.com/f/freedom-flex",
+    "image_link": "assets/credit-card (1).png"
   },
   {
     "id": 8,
@@ -165,7 +172,8 @@
       "required_status": [],
       "notes": [ "Best for frequent travelers who can maximize the extensive statement credits to offset the annual fee." ]
     },
-    "apply_link": "https://apply.americanexpress.com/platinum-card"
+    "apply_link": "https://apply.americanexpress.com/platinum-card",
+    "image_link": "assets/contactless.png"
   },
   {
     "id": 9,
@@ -186,7 +194,8 @@
       "required_status": [],
       "notes": []
     },
-    "apply_link": "https://apply.capitalone.com/savorone-rewards"
+    "apply_link": "https://apply.capitalone.com/savorone-rewards",
+    "image_link": "assets/contactless (1).png"
   },
   {
     "id": 10,
@@ -207,7 +216,8 @@
       "required_status": [],
       "notes": [ "Approval odds may be better for those with an existing Wells Fargo relationship." ]
     },
-    "apply_link": "https://apply.wellsfargo.com/active-cash"
+    "apply_link": "https://apply.wellsfargo.com/active-cash",
+    "image_link": "assets/card.png"
   },
   {
     "id": 11,
@@ -228,7 +238,8 @@
       "required_status": [],
       "notes": [ "You cannot hold both a Sapphire Preferred and Sapphire Reserve card at the same time." ]
     },
-    "apply_link": "https://apply.chase.com/f/sapphire-reserve"
+    "apply_link": "https://apply.chase.com/f/sapphire-reserve",
+    "image_link": "assets/bank-card.png"
   },
   {
     "id": 12,
@@ -249,7 +260,8 @@
       "required_status": [],
       "notes": [ "You must make at least 5 transactions per statement period to earn any points, including on rent." ]
     },
-    "apply_link": "https://apply.biltrewards.com/mastercard"
+    "apply_link": "https://apply.biltrewards.com/mastercard",
+    "image_link": "assets/atm-card.png"
   },
   {
     "id": 13,
@@ -270,7 +282,8 @@
       "required_status": [],
       "notes": []
     },
-    "apply_link": "https://apply.chase.com/f/freedom-unlimited"
+    "apply_link": "https://apply.chase.com/f/freedom-unlimited",
+    "image_link": "assets/american-express.png"
   },
   {
     "id": 14,
@@ -291,7 +304,8 @@
       "required_status": [],
       "notes": [ "The 5% cash back is limited to the first $500 spent in your top category per billing cycle." ]
     },
-    "apply_link": "https://apply.citi.com/custom-cash"
+    "apply_link": "https://apply.citi.com/custom-cash",
+    "image_link": "assets/3d-credit-card.png"
   },
   {
     "id": 15,
@@ -312,7 +326,8 @@
       "required_status": ["Business Owner"],
       "notes": [ "You can apply as a sole proprietor using your own Social Security Number." ]
     },
-    "apply_link": "https://apply.chase.com/f/ink-business-preferred"
+    "apply_link": "https://apply.chase.com/f/ink-business-preferred",
+    "image_link": "assets/credit-cards.png"
   },
   {
     "id": 16,
@@ -333,7 +348,8 @@
       "required_status": [],
       "notes": [ "Annual fee is $0 for the first year, then $99." ]
     },
-    "apply_link": "https://apply.americanexpress.com/delta-skymiles-gold"
+    "apply_link": "https://apply.americanexpress.com/delta-skymiles-gold",
+    "image_link": "assets/credit-card (2).png"
   },
   {
     "id": 17,
@@ -354,7 +370,8 @@
       "required_status": [],
       "notes": [ "Subject to Marriott Bonvoy co-brand card eligibility rules." ]
     },
-    "apply_link": "https://apply.chase.com/f/marriott-bonvoy-boundless"
+    "apply_link": "https://apply.chase.com/f/marriott-bonvoy-boundless",
+    "image_link": "assets/bank-card.png"
   },
   {
     "id": 18,
@@ -369,13 +386,14 @@
     "welcome_bonus": "Earn $50 when you spend $100 in the first three months.",
     "eligibility": {
       "credit_score":  600, 
-      "income_level": "student",
+      "income_level": "lenient",
       "income_recommendation": "Some income is required, but student-friendly (part-time jobs, allowances).",
       "specific_rules": [],
       "required_status": ["Student"],
       "notes": [ "Must be enrolled at a college or university." ]
     },
-    "apply_link": "https://apply.capitalone.com/quicksilver-student"
+    "apply_link": "https://apply.capitalone.com/quicksilver-student",
+    "image_link": "assets/credit-card (1).png"
   },
   {
     "id": 19,
@@ -396,7 +414,8 @@
       "required_status": [],
       "notes": [ "Requires a refundable security deposit of at least $200, which becomes your credit limit.", "Discover automatically reviews your account after 7 months to graduate you to an unsecured card." ]
     },
-    "apply_link": "https://apply.discover.com/it-secured"
+    "apply_link": "https://apply.discover.com/it-secured",
+    "image_link": "assets/american-express.png"
   },
   {
     "id": 20,
@@ -417,6 +436,7 @@
       "required_status": [],
       "notes": [ "Approval odds are significantly better for applicants with an existing U.S. Bank checking or savings account." ]
     },
-    "apply_link": "https://apply.usbank.com/altitude-go"
+    "apply_link": "https://apply.usbank.com/altitude-go",
+    "image_link": "assets/card.png"
   }
 ]
