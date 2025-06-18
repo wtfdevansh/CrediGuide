@@ -57,7 +57,7 @@ Credi Guide is a user-friendly chatbot designed to help you find the perfect cre
 
 ## Access using whatsapp
 
-![qr code](https://drive.google.com/file/d/19gqYk-wESRacfz-aiskbgPJ473pQijSh/view?usp=sharing)
+[qr code](https://drive.google.com/file/d/19gqYk-wESRacfz-aiskbgPJ473pQijSh/view?usp=sharing)
 
 
 ## Project Structure
