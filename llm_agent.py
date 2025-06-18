@@ -37,7 +37,7 @@ class AgentCreator:
                 description="Get personalized credit card recommendations based on user's credit score, income, spending habits, and annual fee ."
             )
         ] 
-        self.llm = ChatOpenAI(model="gpt-4.1-nano-2025-04-14", temperature=0 , api_key=API_KEY)
+        self.llm = ChatOpenAI(model="gpt-4.1-nano-2025-04-14", temperature=0 , openai_api_key=API_KEY)
         self.parser = PydanticOutputParser(pydantic_object=RecommendationResponse)
 
     def create_agent_executor(self) -> AgentExecutor:
