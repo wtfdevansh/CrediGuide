@@ -59,6 +59,9 @@ Credi Guide is a user-friendly chatbot designed to help you find the perfect cre
 
 [qr code](https://drive.google.com/file/d/19gqYk-wESRacfz-aiskbgPJ473pQijSh/view?usp=sharing)
 
+## Access using web
+[url](https://wtfdevansh-crediguide-app-dpt10d.streamlit.app/)
+
 
 ## Project Structure
 
